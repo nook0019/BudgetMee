@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <!--Layout menu-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/navi_button"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_profile"
+            android:paddingLeft="5dp"
+            android:text="@string/profile"
+            android:textSize="9sp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/navi_button"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_ready"
+            android:paddingLeft="5dp"
+            android:text="@string/ready"
+            android:textSize="9sp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/navi_button"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_history"
+            android:paddingLeft="5dp"
+            android:text="@string/history"
+            android:textSize="9sp"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/navi_button"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_wish"
+
+            android:paddingLeft="5dp"
+            android:text="@string/wishlist"
+            android:textSize="9sp"
+
+            />
+    </LinearLayout>
+    <!--Layout menu end-->
+    <!--Layout headtext-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="รายการสินค้าที่น่าสนใจ"
+            android:padding="10dp"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <!--Layout headtext end-->
+    <!--Layout product 01-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        >
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_imgpo"
+            android:layout_gravity=""/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_imgbg"
+            />
+
+    </LinearLayout>
+    <!--Layout product 01 end-->
+    <!--Layout product 02-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        >
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_imgf"
+            android:layout_gravity=""/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_imgms"/>
+
+    </LinearLayout>
+    <!--Layout product 02 end-->
+    <!--Layout product 03-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        >
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_imgink"
+            android:layout_gravity=""/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_imgpc"/>
+
+    </LinearLayout>
+    <!--Layout product 04 end-->
+
+
+</LinearLayout>

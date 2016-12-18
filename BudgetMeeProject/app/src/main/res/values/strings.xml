@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BudgetMeeProject</string>
+    <string name="Sign_up">Sign up</string>
+    <string name="Log_in">Log in</string>
+    <string name="profile">profile</string>
+    <string name="ready">ready list</string>
+    <string name="history">history</string>
+    <string name="wishlist">wish list</string>
+    <string name="add_list">+ add to list</string>
+    <string name="Money">Money</string>
+    <string name="Date">Date add money</string>
+</resources>

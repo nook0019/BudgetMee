@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="35dp"
+    android:weightSum="2"
+    >
+    <!--Linear Layout Logo-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_logo"
+            />
+    </LinearLayout>
+    <!--Linear Layout logo End-->
+    <!--Linear Layout text view-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+
+        >
+        <EditText
+            android:id="@+id/Edt_user"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:background="@drawable/textview_regis"
+            android:layout_marginBottom="30dp"
+            android:text="Username"
+            android:textColor="#cccccc"
+            android:drawableLeft="@drawable/ic_man_sm"
+            android:drawablePadding="30dp"
+
+
+            />
+
+
+        <EditText
+            android:id="@+id/Edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="@drawable/textview_regis"
+            android:layout_marginBottom="30dp"
+            android:text="Password"
+            android:textColor="#cccccc"
+            android:drawableLeft="@drawable/ic_pass_sm"
+            android:drawablePadding="30dp"
+            />
+
+
+
+        <Button
+            android:id="@+id/login_BT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_regis"
+            android:text="@string/Log_in"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:padding="10dp"
+            android:onClick="onClickSignin"
+
+            />
+        <Button
+            android:id="@+id/signup_BT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_regis"
+            android:text="@string/Sign_up"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:padding="10dp"
+            android:onClick="onClickSignup"
+            />
+
+    </LinearLayout>
+    <!--Linear Layout Button End-->
+</LinearLayout>
